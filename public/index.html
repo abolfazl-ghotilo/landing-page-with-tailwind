@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/style.css">
+    <title>landing</title>
+</head>
+<body class="bg-tertiary">
+    <main class="container">
+        <header class="flex items-center justify-between mt-5">
+            <h1 class="text-white text-5xl">Wallet</h1>
+            <ul class="text-white text-xl gap-14 hidden lg:flex items-center">
+                <li class="hover:text-secondary hover:cursor-pointer duration-500 transition-all">Home</li>
+                <li class="hover:text-secondary hover:cursor-pointer duration-500 transition-all">About</li>
+                <li class="hover:text-secondary hover:cursor-pointer duration-500 transition-all">Contact</li>
+                <li class="hover:text-secondary hover:cursor-pointer duration-500 transition-all">Gallery</li>
+            </ul>
+            <button class="hidden w-36 h-14 rounded-md bg-secondary mt-6 text-2xl border-secondary border-2 hover:text-secondary hover:bg-transparent duration-300 transition-all lg:block" type="button" type="button">Login</button>
+            <div class="flex flex-col gap-2 lg:hidden">
+                <hr class="w-11 h-[6px] bg-white rounded-md">
+                <hr class="w-9 h-[6px] bg-white rounded-md">
+                <hr class="w-11 h-[6px] bg-white rounded-md">
+            </div>
+        </header>
+        <section class="lg:flex flex-row-reverse items-center justify-between">
+            <img class="mt-4 w-[100%] lg:w-1/2" src="../assets/hero.png">
+            <div class="flex flex-col items-center lg:items-start gap-7">
+                <h1 class="text-white text-5xl text-center leading-tight font-semibold lg:text-[80px] lg:w-[600px] lg:text-start">SaaS <span class="text-secondary">Landing</span> Page Template</h1>
+                <p class="text-primary text-center text-xl mt-4 lg:w-3/4 lg:text-start">This is a template Figma file, turned into code using Anima. Learn more at <a class="hover:cursor-pointer hover:text-secondary duration-150 transition-all" href="https://www.animaapp.com/">AnimaApp.com</a></p>
+                <button class="w-36 h-16 rounded-md bg-secondary mt-6 text-2xl border-secondary border-2 hover:text-secondary hover:bg-transparent duration-300 transition-all" type="button">Get started</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
